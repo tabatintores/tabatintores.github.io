@@ -1,0 +1,2 @@
+.Layout{height:100vh}.Todo{display:flex;flex-direction:column;margin-left:auto;margin-right:auto;width:500px;height:200px;margin-top:50px;padding-top:30px}.Todo h1{text-align:center}.activeTask{background:#fff}.activeTask,.activeTask:hover{-webkit-transition:background .25s ease;transition:background .25s ease}.activeTask:hover{cursor:pointer!important;background:#f8f9fa}.completed{text-decoration:line-through;background:#f5c6cb!important}.close-button{z-index:1000;overflow:hidden}
+/*# sourceMappingURL=main.57a5f1df.chunk.css.map */
