@@ -18,20 +18,18 @@
     <title>Яндекс.Диск</title>
     <style type="text/css">
         html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
-        @media screen and (max-width: 600px) {
-            .btn {
-                text-align: center;
+        @media screen and (min-width: 500px) {
+            .btn-google {
+                padding-left: 20%;
             }
-            .arr {
-                display: none;
-            }
-        }
-        @media screen and (max-width: 500px) {
-            .column {
-                width: 100% !important;
+            .btn-apple {
+                padding-right: 20%;
             }
         }
         @media screen and (max-width: 799px) {
+            .table {
+                width: 92%;
+            }
             img {
                 max-width: 100%;
                 height: auto;
@@ -42,18 +40,13 @@
         }
         @media screen and (min-width: 800px) {
             .table {
-                width: 800px !important;
+                width: 640px !important;
             }
-            .img1 {
-                width: 732px !important;
-                height: 442px !important;
+            .btn-google {
+                padding-left: 156px;
             }
-            .img2 {
-                width: 615px !important;
-                height: 188px !important;
-            }
-            .img-padding {
-                padding-left: 45px;
+            .btn-apple {
+                padding-right: 164px;
             }
         }
     </style>
@@ -72,7 +65,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" class="table" style="width: 100%;min-width: 300px;max-width: 640px;">
                         <tr>
                             <td align="center" valign="top">
-                                <table border="0" cellspacing="0" cellpadding="0" width="92%">
+                                <table class="table" border="0" cellspacing="0" cellpadding="0" width="100%">
                                     <tr>
                                         <td align="center" valign="top">
                                             <!--<table border="0" cellspacing="0" cellpadding="0" width="100%">
@@ -96,7 +89,7 @@
                                                                         <tr>
                                                                             <td style="vertical-align: top;">
                                                                                 <div>
-                                                                                        <img src="attachments/bg-img.png" width="640" height="259" alt="" border="0" style="width:640px;border:0;outline:none;">
+                                                                                        <img src="attachments/bg-img.png" width="640" alt="" border="0" style="width:640px;max-width:100%;height:auto;border:0;outline:none;">
                                                                                 </div>
                                                                             </td>
                                                                         </tr>
@@ -237,20 +230,40 @@
                                                                         <td height="53"><div></div></td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td style="vertical-align: middle;padding-left: 156px;" align="left">
+                                                                        <td align="left" valign="top">
+                                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                <tr>
+                                                                                    <td class="btn-google" align="center" style="vertical-align: middle;">
+                                                                                        <div>
+                                                                                            <a href="#" target="_blank" style="text-decoration:none;">
+                                                                                                <img src="attachments/google.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="btn-apple" align="center" style="vertical-align: middle;">
+                                                                                        <div class="logo">
+                                                                                            <a href="#" target="_blank" style="text-decoration:none;">
+                                                                                                <img src="attachments/apple.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <!--<td style="vertical-align: middle;padding-left: 156px;" align="left">
                                                                             <div>
                                                                                 <a href="#" target="_blank" style="text-decoration:none;">
-                                                                                    <img src="attachments/google.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
+                                                                                    <img class="logo" src="attachments/google.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
                                                                                 </a>
                                                                             </div>
                                                                         </td>
                                                                         <td style="vertical-align: middle;padding-right: 164px;" align="right">
                                                                             <div>
                                                                                 <a href="#" target="_blank" style="text-decoration:none;">
-                                                                                    <img src="attachments/apple.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
+                                                                                    <img class="logo" src="attachments/apple.png" width="149" height="43" alt="" border="0" style="width:149px;border:0;outline:none;">
                                                                                 </a>
                                                                             </div>
-                                                                        </td>
+                                                                        </td>-->
                                                                     </tr>
                                                                 </table>
                                                             </td>
@@ -295,19 +308,47 @@
                                                                         <td height="46"><div></div></td>
                                                                     </tr>-->
                                                                     <tr>
-                                                                        <td style="vertical-align: center;height: 84px;padding-left: 30px;" align="left">
+                                                                        <td style="vertical-align: middle;padding-left: 30px;" align="left">
                                                                             <div>
                                                                                 <img src="attachments/ydisk-logo.png" width="92" height="21" alt="" border="0" style="width:92px;border:none;display: block">
                                                                             </div>
-                                                                            <!--<div style="font-family: Arial, Helvetica, Tahoma, sans-serif;font-size: 12px;line-height: 14px;color: #000;opacity: 0.4;font-weight:normal">
-                                                                                asd
-                                                                            </div>-->
+                                                                        </td>
+                                                                        <!--<td>
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td align="left" valign="middle" style="padding-left: 20px;">
+                                                                                        <div>
+                                                                                            <a href="#" target="_blank" style="text-decoration:none;font-family: Arial, Helvetica, sans-serif;color: #999999;font-size:12px;line-height:14px;">Отключить рассылку</a>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td align="right" valign="middle">
+                                                                                        <div>
+                                                                                            <a href="#" target="_blank" style="text-decoration:none;font-family: Arial, Helvetica, sans-serif;color: #999999;font-size:12px;line-height:14px;">Обратная связь</a>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>-->
+                                                                        <td align="right" valign="middle" style="padding-left: 130px;">
+                                                                            <div>
+                                                                                <a href="#" target="_blank" style="text-decoration:none;font-family: Arial, Helvetica, sans-serif;color: #999999;font-size:12px;line-height:14px;">Отключить рассылку</a>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td align="right" valign="middle" style="padding-right: 33px;">
+                                                                            <div>
+                                                                                <a href="#" target="_blank" style="text-decoration:none;font-family: Arial, Helvetica, sans-serif;color: #999999;font-size:12px;line-height:14px;">Обратная связь</a>
+                                                                            </div>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
                                                             </td>
                                                         </tr>
                                                     </td>
+                                                </tr>
+                                            </table>
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td height="38"><div></div></td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -325,7 +366,7 @@
             </td>
         </tr>
     </table>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4Xw8AAoABf5/NhYYAAAAASUVORK5CYII=" width="1" height="1" />
+<!--    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4Xw8AAoABf5/NhYYAAAAASUVORK5CYII=" width="1" height="1" />-->
 </div>
 </body>
-</html>                             
+</html>
